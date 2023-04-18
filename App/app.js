@@ -24,7 +24,7 @@ document.getElementById("decrease").onclick = function () {
 
 // Reset
 document.getElementById("reset").onclick = function () {
-   count == reset;
+   count = reset;
    document.getElementById("count").innerHTML = reset;
    document.getElementById("increase").innerHTML = "Increase" + setIconIncrease;
    console.log('reset:', reset);
